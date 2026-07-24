@@ -1,0 +1,8 @@
+# robotstxt.org
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Disallow:
+
