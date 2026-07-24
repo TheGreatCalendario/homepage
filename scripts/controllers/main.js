@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('[DEBUG] main.js loaded');
-
 /**
  * @ngdoc function
  * @name therapiepapstApp.controller:MainCtrl
@@ -11,7 +9,6 @@ console.log('[DEBUG] main.js loaded');
  */
 angular.module('therapiepapstApp')
   .controller('MainCtrl', function () {
-    console.log('[DEBUG] MainCtrl instantiated');
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
