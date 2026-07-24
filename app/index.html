@@ -16,16 +16,6 @@
   <link rel="apple-touch-icon-precomposed" href="http://www.therapie-papst.at/apple-touch-icon.png" content="Systemische Familientherapie"/>
 </head>
 <body ng-app="therapiepapstApp" ng-smooth-scroll data-offset="200" data-duration="1000">
-<div id="debug-info" style="position:fixed;top:0;left:0;background:#000;color:#0f0;padding:10px;z-index:99999;font-size:12px;">
-  jQuery: <span id="debug-jquery">?</span> |
-  Angular: <span id="debug-angular">?</span> |
-  ng-view: <span id="debug-ngview">?</span>
-</div>
-<script>
-  document.getElementById('debug-jquery').textContent = typeof jQuery;
-  document.getElementById('debug-angular').textContent = typeof angular;
-  document.getElementById('debug-ngview').textContent = document.querySelector('[ng-view]') ? 'found' : 'not found';
-</script>
 <!--[if lte IE 8]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
   your browser</a> to improve your experience.</p>

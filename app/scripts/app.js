@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('[DEBUG] app.js loaded');
-
 /**
  * @ngdoc overview
  * @name therapiepapstApp
@@ -23,7 +21,6 @@ angular
     'ng-smooth-scroll'
   ])
   .config(function ($routeProvider) {
-    console.log('[DEBUG] Angular config running');
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -41,5 +38,3 @@ angular
     // use the HTML5 History API
     // $locationProvider.html5Mode(true);
   });
-
-console.log('[DEBUG] Angular module defined');
