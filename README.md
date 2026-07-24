@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/TherapiePapst/homepage.svg?branch=master)](https://travis-ci.org/TherapiePapst/homepage)
+[![Build Status](https://github.com/TheGreatCalendario/homepage/actions/workflows/ci.yml/badge.svg)](https://github.com/TheGreatCalendario/homepage/actions/workflows/ci.yml)
 
 # therapiepapst
 
