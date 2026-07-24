@@ -44,7 +44,8 @@ address {
 }
 
 h3 {
-  font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 
 .nav-papst {
@@ -68,7 +69,7 @@ h3 {
 
 .nav-papst  .navbar-nav  li a{
   color: #ffffff;
-  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   transition: all .2s linear;
   -o-transition: all .2s linear;
@@ -120,7 +121,8 @@ h3 {
 
 .therapist .features_list h1{
   color: #525151;
-  font-family: "OpenSansBold", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   font-size: 34px;
   font-weight: bold;
   line-height: 46px;
@@ -136,7 +138,7 @@ h3 {
 
 .therapist .features_list p{
   color: #767272;
-  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin-bottom: 45px;
   line-height: 1.8em;
@@ -151,7 +153,8 @@ h3 {
 .therapist .features_list ul li{
   display: block;
   position: relative;
-  font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   font-size: 16px;
   line-height: 44px;
   text-indent: 25px;
