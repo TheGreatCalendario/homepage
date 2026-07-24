@@ -1,5 +1,0 @@
-/* CSS entry point - all styles are imported here */
-@import './vendor/bootstrap.min.css';
-@import './vendor/animate.min.css';
-@import './cover/cover.css';
-@import './main.css';
