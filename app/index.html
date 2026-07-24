@@ -9,26 +9,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
   <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAqzWxzOV0y8_-xctW51ZtKEnuWOl4WbFQ&callback=initMap' async defer></script>
 
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <!-- build:css(.) styles/vendor.css -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-  <link rel="stylesheet" href="bower_components/webfont-opensans/css/stylesheet.css" />
-  <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
-  <!-- endbower -->
-  <!-- endbuild -->
-  <!-- build:css(.tmp) styles/main.css -->
-  <link rel="stylesheet" href="styles/capture-theme/owl.transitions.css">
-  <link rel="stylesheet" href="styles/capture-theme/owl.carousel.css">
-  <link rel="stylesheet" href="styles/capture-theme/animate.css">
-  <link rel="stylesheet" href="styles/capture-theme/capture-theme.css">
-  <link rel="stylesheet" href="styles/cover/cover.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" />
   <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
   <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
   <link rel="apple-touch-icon-precomposed" href="http://www.therapie-papst.at/apple-touch-icon.png" content="Systemische Familientherapie"/>
 </head>
-<body ng-app="therapiepapstApp" ng-smooth-scroll data-offset="200" data-duration=1000>
+<body ng-app="therapiepapstApp" ng-smooth-scroll data-offset="200" data-duration="1000">
 <!--[if lte IE 8]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
   your browser</a> to improve your experience.</p>
@@ -39,7 +26,6 @@
 <a name='atop'/>
 <nav class="navbar navbar-default navbar-fixed-top nav-papst">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -53,7 +39,6 @@
       </div>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <nav>
         <ul class="nav navbar-nav">
@@ -64,26 +49,15 @@
           <li class="animated fadeInLeft" data-wow-delay=".4s" data-toggle="collapse" data-target=".navbar-collapse.in" aria-expanded="false"><a href="#aabout" class='scroll-to'>Impressum</a></li>
         </ul>
       </nav>
-      <!--ul class="list-unstyled pull-right">
-        <li class="animated fadeInRight" data-wow-delay=".2s"><img src="images/logo.png" alt="" title=""></li>
-        <!--li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="" title=""></a></li>
-        <li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="" title=""></a></li>
-      </ul>-->
     </div>
-    <!-- /.navbar-collapse -->
   </div>
-  <!-- /.container-fluid -->
 </nav>
 
 
 <div class="site-wrapper" id="top">
-
   <div class="site-wrapper-inner cover-content-middle">
-
     <div class="cover-container animated wow fadeInDown">
-      <!--div class="masthead clearfix"-->
         <div class="inner cover">
-          <!--<h1 class="cover-heading">Ein Stützpfahl gegen den Wind der Krise.</h1>-->
           <h1 class="cover-heading">Praxis für Psychotherapie<br/>
             <small>Systemische Einzel-, Paar- und Familientherapie</small>
           </h1><br>
@@ -97,25 +71,15 @@
           </blockquote>
         </div>
     </div>
-
   </div>
-
 </div>
 
 
-<!-- Disabled container div to make jumbotron fill full width of screen -->
-<!--div class="container"-->
 <div ng-view=""></div>
-<!-- /div-->
 
 <!--  Footer Section  -->
 <a name='aabout'/>
 <footer id="about">
-  <!--div class="container" style="text-align:center;">
-    <ul class="nav">
-      <li role="presentation"><a href="/about">Impressum</a></li>
-    </ul>
-  </div-->
   <p class="copyright animated wow fadeInUp" data-wow-duration="2s">
     <address>
       <strong>Carmen Papst</strong> <br/>
@@ -130,7 +94,6 @@
     &copy; 2015 Alle Rechte vorbehalten
   </p>
 </footer>
-<!--  End Footer Section  -->
 
 
 <script>
@@ -145,16 +108,12 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
   })
-
   (window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
   ga('create', 'UA-70143417-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
-
 <script>
-  <!-- Adwords Analytics Tracking Code -->
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
     i[r] = i[r] || function () {
@@ -166,97 +125,91 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
   ga('create', 'UA-78820163-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
-<!-- build:js(.) scripts/vendor.js -->
-<!-- bower:js -->
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="bower_components/angular-animate/angular-animate.js"></script>
-<script src="bower_components/angular-aria/angular-aria.js"></script>
-<script src="bower_components/angular-cookies/angular-cookies.js"></script>
-<script src="bower_components/angular-messages/angular-messages.js"></script>
-<script src="bower_components/angular-resource/angular-resource.js"></script>
-<script src="bower_components/angular-route/angular-route.js"></script>
-<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-<script src="bower_components/angular-touch/angular-touch.js"></script>
-<script src="bower_components/lodash/lodash.js"></script>
-<script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
-<script src="bower_components/wow/dist/wow.js"></script>
-<script src="bower_components/tp-smooth-scroll/ng-smooth-scroll.js"></script>
-<!-- endbower -->
-<!-- endbuild -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular@1.8.3/angular.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-animate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-aria.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-cookies.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-messages.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-resource.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-route.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-sanitize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/angular.js@1.8.3/angular-touch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 
-<!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/about.js"></script>
-<!-- endbuild -->
 
 <script>
-  wow = new WOW(
-    {
-      animateClass: 'animated',
-      offset: 100,
-    }
-  );
-  wow.init();
+  document.addEventListener('DOMContentLoaded', function() {
+    var scrollToLinks = document.querySelectorAll('.scroll-to');
+    scrollToLinks.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        var targetId = this.getAttribute('href');
+        var target = document.querySelector(targetId);
+        if (target) {
+          var offset = 70;
+          var targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  });
 </script>
 
 <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "MedicalClinic",
-    "@id": "http://www.therapie-papst",
-    "name": "Praxis für systemische Familientherapie Carmen Papst",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Rosenauerstrasse 2",
-      "addressLocality": "Linz",
-      "addressRegion": "Upper Austria",
-      "postalCode": "4040",
-      "addressCountry": "AT"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 48.315545,
-      "longitude": 14.280145
-    },
-    "url": "http://www.therapie-papst.at",
+{
+  "@context": "http://schema.org",
+  "@type": "MedicalClinic",
+  "@id": "http://www.therapie-papst",
+  "name": "Praxis für systemische Familientherapie Carmen Papst",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rosenauerstrasse 2",
+    "addressLocality": "Linz",
+    "addressRegion": "Upper Austria",
+    "postalCode": "4040",
+    "addressCountry": "AT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 48.315545,
+    "longitude": 14.280145
+  },
+  "url": "http://www.therapie-papst.at",
+  "telephone": "+436505633002",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "08:00",
+    "closes": "19:00"
+  }],
+  "availableService": {
+    "@type": "PsychologicalTreatment",
+    "name": "Systemische Familientherapie",
+    "alternateName": "Systemische Psychotherapie",
+    "description": "Die Systemische Familientherapie versteht die Probleme des Einzelnen in Zusammenhang mit seinen relevanten Beziehungen und seinem Lebenskonzept."
+  },
+  "medicalSpecialty": "Psychiatric",
+  "logo": "http://www.therapie-papst.at/logo-structured-data.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
     "telephone": "+436505633002",
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-        ],
-        "opens": "08:00",
-        "closes": "19:00"
-    }],
-    "availableService": {
-      "@type": "PsychologicalTreatment",
-      "name": "Systemische Familientherapie",
-      "alternateName": "Systemische Psychotherapie",
-      "description": "Die Systemische Familientherapie versteht die Probleme des Einzelnen in Zusammenhang mit seinen relevanten Beziehungen und seinem Lebenskonzept. Die Therapie lösungs- und ressourcen-orientiert"
-    },
-    "medicalSpecialty": "Psychiatric",
-    "logo": "http://www.therapie-papst.at/logo-structured-data.png",
-    "contactPoint" : [{
-      "@type" : "ContactPoint",
-      "telephone" : "+436505633002",
-      "contactType" : "reservations",
-      "availableLanguage" : "German",
-      "areaServed" : "AT"
-    }]
-  }
-  </script>
+    "contactType": "reservations",
+    "availableLanguage": "German",
+    "areaServed": "AT"
+  }]
+}
+</script>
 </body>
 </html>
