@@ -1,0 +1,342 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+html,
+body {
+  height: 100%;
+  /*background-color: #333;*/
+}
+body::after {
+  content: "";
+  height: 100%;
+  background: #FFFFFF url('../images/cover/logo.svg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+body {
+  padding: 0;
+  padding-top: 0px;
+  text-align: center;
+  color: #757171;
+}
+
+blockquote {
+  border-left: none;
+}
+
+address {
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
+}
+
+.nav-papst {
+  background-color: #7dcff4;
+  border-style: none;
+}
+
+.nav-papst .navbar-collapse, .navbar-default .navbar-form {
+  border-style: none;
+}
+
+.nav-papst .logo {
+  padding-left: 15px;
+  margin-right: 50px;
+}
+
+.nav-papst .navbar-nav {
+  margin: 5px -15px 0px -15px;
+}
+
+
+.nav-papst  .navbar-nav  li a{
+  color: #ffffff;
+  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  transition: all .2s linear;
+  -o-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+}
+
+.nav-papst  .navbar-nav  li a:hover,
+.nav-papst  .navbar-nav  li a:focus{
+  text-decoration: none;
+  color: #757171;
+}
+
+.nav-papst .navbar-toggle {
+  border-color: #7dcff4;}
+
+.nav-papst .navbar-toggle:hover,
+.nav-papst .navbar-toggle:focus{
+  background-color: #ffffff;
+}
+
+.cover-content-middle {
+  vertical-align: middle;
+}
+
+/*Therapist Section */
+
+.therapist {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.therapist .portrait {
+  max-width: 425px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.therapist .portrait img{
+  width: 100%;
+  height: auto;
+}
+
+.therapist .features_list{
+  /*:margin-left: 50px; */
+  text-align: left;
+}
+
+.therapist .features_list h1{
+  color: #525151;
+  font-family: "OpenSansBold", Helvetica, Arial, sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 46px;
+  margin: 0 0 20px 0;
+  word-break: break-word;
+}
+
+.therapist .features_list h2,h3{
+  text-align: center;
+  padding-bottom: 30px;
+  color: #757171;
+}
+
+.therapist .features_list p{
+  color: #767272;
+  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 45px;
+  line-height: 1.8em;
+}
+
+.therapist .features_list ul{
+  margin-bottom: 30px;
+  color: #6c6c6c;
+
+}
+
+.therapist .features_list ul li{
+  display: block;
+  position: relative;
+  font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 44px;
+  text-indent: 25px;
+  transition: all .2s linear;
+  -o-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+}
+.therapist .features_list ul li span{
+  display: inline-block;
+}
+
+.therapist .features_list ul li span.additionalInfo{
+  display: inline-flex;
+  text-indent: 0px;
+}
+
+.therapist .features_list ul li.camera_icon{
+  background: url('../images/capture-theme/icon1.png') no-repeat;
+  background-position: 0 15px;
+}
+
+.therapist .features_list ul li.video_icon{
+  background: url('../images/capture-theme/icon2.png') no-repeat;
+  background-position: 0 15px;
+}
+
+.therapist .features_list ul li.eye_icon{
+  background: url('../images/capture-theme/icon3.png') no-repeat;
+  background-position: 0 14px;
+}
+
+.therapist .features_list ul li.pic_icon{
+  background: url('../images/capture-theme/icon4.png') no-repeat;
+  background-position: 0 14px;
+}
+
+.therapist .features_list ul li.loc_icon{
+  background: url('../images/capture-theme/icon5.png') no-repeat;
+  background-position: 3px 13px;
+}
+
+.therapist .features_list ul li.education_icon{
+  background: url('../images/glyphicons/education2.png') no-repeat;
+  background-position: 2px 14px;
+}
+
+.testimonials .testimonials_list blockquote p small{
+  color: #fff;
+}
+
+
+.angular-google-map-container {
+  height: 300px;
+  /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /!* Firefox 10+, Firefox on Android *!/*/
+  /* filter: gray; /* IE6-9 */
+  /*-webkit-filter: grayscale(0.4);
+  -moz-filter: grayscale(0.4);
+  -ms-filter: grayscale(0.4);
+  -o-filter: grayscale(0.4);
+  filter: grayscale(0.4); */
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+footer {
+  /*padding-top: 19px;*/
+  padding: 0px 0;
+  color: #777;
+  /*border-top: 1px solid #e5e5e5;*/
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.landing-page-container {
+  text-align: center;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1700px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+
+  .angular-google-map-container {
+    height: 600px;
+    /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /!* Firefox 10+, Firefox on Android *!/*/
+    /* filter: gray; /* IE6-9 */
+    /*-webkit-filter: grayscale(0.4);
+    -moz-filter: grayscale(0.4);
+    -ms-filter: grayscale(0.4);
+    -o-filter: grayscale(0.4);
+    filter: grayscale(0.4); */
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-papst .navbar-nav  li:first-child a {
+    border-top: 1px solid white;
+  }
+  .nav-papst .navbar-nav  li a {
+    border-bottom: 1px solid white;
+  }
+
+  .cover blockquote {
+    font-size: 14px;
+  }
+
+  .cover h1 {
+    font-size: 24px;
+  }
+
+  .therapist {
+    padding: 50px 0;
+  }
+
+  .therapist .features_list {
+    text-align: center;
+    margin: 0;
+  }
+
+  .therapist .features_list ul li{
+    text-indent: 0;
+    background: transparent!important;
+    margin-bottom: 20px;
+    line-height: inherit;
+  }
+
+  .therapist .features_list ul li:last-child{
+    margin: 0;
+  }
+
+  .testimonials {
+    padding: 50px 0;
+  }
+}
