@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build && cp -r app/scripts dist/ && cp -r app/styles dist/",
     "preview": "vite preview",
-    "test": "karma start test/karma.conf.js --single-run"
+    "test": "karma start test/karma.conf.cjs --single-run"
   },
   "devDependencies": {
     "vite": "^5.4.0",
