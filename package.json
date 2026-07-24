@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp -r app/scripts dist/ && cp -r app/styles dist/",
+    "build": "vite build && cp -r app/scripts dist/ && mkdir -p dist/styles && cp app/styles/vendor/*.css dist/styles/ && cp app/styles/cover/*.css dist/styles/ && cp app/styles/main.css dist/styles/",
     "preview": "vite preview",
     "test": "karma start test/karma.conf.cjs --single-run"
   },
