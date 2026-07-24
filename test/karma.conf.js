@@ -57,17 +57,24 @@ module.exports = function(config) {
     // - Firefox
     // - Opera
     // - Safari (only Mac)
-    // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      "PhantomJS"
+      "ChromeHeadlessCI"
     ],
 
     // Which plugins to enable
     plugins: [
-      "karma-phantomjs-launcher",
+      "karma-chrome-launcher",
+      "karma-firefox-launcher",
       "karma-jasmine"
     ],
+
+    customLaunchers: {
+      ChromeHeadlessCI: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox', '--disable-gpu', '--disable-translate', '--disable-extensions']
+      }
+    },
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit

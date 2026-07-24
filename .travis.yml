@@ -1,17 +1,19 @@
-sudo: false
+dist: jammy
 language: node_js
 cache:
   directories:
     - node_modules
     - bower_components
 node_js:
-  - '6.10.3'
+  - '20'
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
 script:
   - 'npm run-script test'
   - 'npm run-script build'
+addons:
+  chrome: stable
 deploy:
   provider: pages
   skip-cleanup: true
