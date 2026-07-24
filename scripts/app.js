@@ -37,4 +37,11 @@ angular
       });
     // use the HTML5 History API
     // $locationProvider.html5Mode(true);
-  });
+  })
+  .run(['$timeout', function($timeout) {
+    $timeout(function() {
+      if (typeof initMap === 'function' && typeof map === 'undefined') {
+        initMap();
+      }
+    }, 1000);
+  }]);
