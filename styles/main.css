@@ -58,19 +58,19 @@ body {
   }
 }
 
-.animate__fadeInLeft {
+.fadeInLeft {
   animation-name: fadeInLeft;
 }
 
-.animate__fadeInRight {
+.fadeInRight {
   animation-name: fadeInRight;
 }
 
-.animate__fadeInUp {
+.fadeInUp {
   animation-name: fadeInUp;
 }
 
-.animate__fadeInDown {
+.fadeInDown {
   animation-name: fadeInDown;
 }
 body::after {
