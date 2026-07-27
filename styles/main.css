@@ -13,6 +13,12 @@ body {
   /*background-color: #333;*/
 }
 
+/* Animate.css v3.x base animation class */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
 /* Add missing fadeInLeft/fadeInRight animations from animate.css v3.x */
 @keyframes fadeInLeft {
   0% {
@@ -58,6 +64,15 @@ body {
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .fadeInLeft {
   animation-name: fadeInLeft;
 }
@@ -72,6 +87,10 @@ body {
 
 .fadeInDown {
   animation-name: fadeInDown;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
 }
 body::after {
   content: "";
